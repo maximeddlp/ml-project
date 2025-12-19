@@ -1,34 +1,59 @@
-School Projects - Data Science & Machine Learning
-This repository contains several projects completed as part of my academic curriculum. The goal of these projects is to apply data analysis, feature engineering, and predictive modeling techniques to real-world datasets.
+# School Projects – Data Science & Machine Learning
 
-ncluded Projects
-1. Bitcoin Price Prediction (Classification)
+This repository contains several projects completed as part of my academic curriculum.  
+The goal of these projects is to apply **data analysis**, **feature engineering**, and **predictive modeling** techniques to real-world datasets.
 
-Description: Predicting Bitcoin price trends (UP/DOWN) over a 30-minute horizon.
+---
 
-Key Highlights:
+## Included Projects
 
-Data cleaning and processing of historical OHLCV (Open, High, Low, Close, Volume) data.
+### Bitcoin Price Prediction (Classification)
 
-Feature Engineering: Implementation of technical indicators such as RSI, MACD, and Moving Averages.
+**Description:**  
+Predicting Bitcoin price trends (**UP / DOWN**) over a 30-minute horizon.
 
-Modeling: Performance comparison between classification models including Random Forest, XGBoost, and LSTM.
+**Key Highlights:**
+- Data cleaning and processing of historical **OHLCV** data  
+- Feature engineering with technical indicators:
+  - RSI
+  - MACD
+  - Moving Averages
+- Model comparison:
+  - Random Forest
+  - XGBoost
+  - LSTM
 
-2. SNCF Delay Forecasting (Regression)
+---
 
-Description: Predicting train delays across the SNCF (French National Railway) network.
+### SNCF Delay Forecasting (Regression)
 
-Key Highlights:
+**Description:**  
+Predicting train delays across the **SNCF (French National Railway)** network.
 
-Handling complex time-series and categorical data.
+**Key Highlights:**
+- Handling complex **time-series** and **categorical** data
+- Feature engineering:
+  - Cyclic date encoding (sine / cosine)
+  - Target Encoding for high-cardinality categorical variables
+- Regression models:
+  - LightGBM
+  - Random Forest
+  - Ridge / Lasso Regression
+- Hyperparameter optimization:
+  - BayesSearchCV
+  - RandomizedSearchCV
 
-Feature Engineering: Cyclic encoding of dates (sine/cosine transforms) and Target Encoding for high-cardinality categorical variables.
+---
 
-Modeling: Implementation of regression models such as LightGBM, Random Forest, and Ridge/Lasso regression.
+## Technologies Used
 
-Optimization: Hyperparameter tuning using BayesSearchCV and RandomizedSearchCV.
-
-🛠️ Technologies Used
-Language: Python
-
-Libraries: Pandas, NumPy, Scikit-Learn, LightGBM, Category Encoders, Matplotlib, Seaborn.
+- **Language:** Python  
+- **Libraries:**  
+  - Pandas
+  - Pytorch
+  - NumPy  
+  - Scikit-learn  
+  - LightGBM  
+  - Category Encoders  
+  - Matplotlib  
+  - Seaborn
