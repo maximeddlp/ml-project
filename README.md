@@ -7,6 +7,25 @@ The goal of these projects is to apply **data analysis**, **feature engineering*
 
 ## Included Projects
 
+### Parkinson’s Disease Classification
+
+**Description:**
+Classifying patients with Parkinson’s Disease based on medical and voice-related features.
+
+**Key Highlights:**
+
+- Data preprocessing and normalization of medical features
+- Feature selection comparison:
+
+  - All features
+  - Wrapper-based selection method
+- Analysis of the **accuracy–stability trade-off** in medical diagnostics
+- Model comparison:
+
+  - K-Nearest Neighbors (KNN)
+  - Support Vector Machine (SVM)
+  - Random Forest
+---
 ### Bitcoin Price Prediction (Classification)
 
 **Description:**  
